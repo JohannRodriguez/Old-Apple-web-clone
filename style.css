@@ -20,6 +20,11 @@ header main {
   width: 100%;
 }
 
+
+footer p {
+  color: #6e6e6e;
+}
+
 .copyrigth p,
 li {
   display: inline;
@@ -113,11 +118,6 @@ nav ul li:hover,
 
 .headings h2 {
   font-size: 1.6em;
-}
-
-
-footer p {
-  color: #6e6e6e;
 }
 
 .headings p {
