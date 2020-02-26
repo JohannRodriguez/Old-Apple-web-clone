@@ -11,14 +11,14 @@ header {
   width: 1425px;
   height: 645px;
   background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
-  background-position: 0px -670px;
+  background-position: 0 -670px;
   text-align: center;
 }
 
 nav {
   position: relative;
   margin: auto;
-  background: linear-gradient(rgb(163, 163, 163), rgb(128, 127, 127)40%, rgb(109, 109, 109)50%, rgb(114, 114, 114));
+  background: linear-gradient(rgb(163, 163, 163), rgb(128, 127, 127)40%, rgb(109, 109, 109)50%, rgb(114, 114, 114) );
   width: 960px;
   height: 35px;
   border-radius: 3px;
@@ -28,8 +28,12 @@ nav {
 
 #apple-logo {
   width: 20px;
-  padding: 5px 41px ;
+  padding: 5px 41px;
   border-right: solid 1px rgb(73, 73, 73);
+}
+
+.footer-links li {
+  list-style: none;
 }
 
 nav ul {
@@ -47,6 +51,7 @@ nav li {
   font-size: 13px;
   text-shadow: 1px -1px 0.5px rgb(68, 68, 68);
 }
+
 .nav-search {
   margin: auto;
 }
@@ -86,8 +91,12 @@ nav ul li:hover,
 }
 
 footer p {
-  color:#6e6e6e;;
+  color:#6e6e6e;
   font-size: 10px;
+}
+
+.copyrigth p {
+  display: inline;
 }
 
 .headings p {
@@ -143,11 +152,11 @@ footer p {
   justify-content: space-between;
   align-items: center;
   width: 980px;
-  margin: 20px auto 3px auto; 
+  margin: 20px auto 3px auto;
 }
 
 footer a {
-  color:#08c;
+  color: #08c;
   font-size: 10px;
 }
 
@@ -158,10 +167,6 @@ footer a:hover {
 .footer-links ul {
   display: flex;
   margin-top: -5px;
-}
-
-.footer-links li {
-  list-style: none;
 }
 
 .footer-links ul a {
@@ -177,10 +182,6 @@ footer a:hover {
 .copyrigth {
   width: 980px;
   margin: auto;
-}
-
-.copyrigth p {
-  display: inline;
 }
 
 .copyrigth :nth-last-child(1) {
