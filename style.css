@@ -16,6 +16,7 @@ header {
 }
 
 nav {
+  display: flex;
   position: relative;
   margin: auto;
   background: linear-gradient(rgb(163, 163, 163), rgb(128, 127, 127) 40%, rgb(109, 109, 109) 50%, rgb(114, 114, 114));
@@ -27,6 +28,7 @@ nav {
 }
 
 #apple-logo {
+  display: inline-block;
   width: 20px;
   padding: 5px 41px;
   border-right: solid 1px rgb(73, 73, 73);
@@ -34,8 +36,7 @@ nav {
 
 nav li {
   text-align: center;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding: 6px 34.5px 6px 34.5px;
   display: inline;
   border-right: solid 1px rgb(73, 73, 73);
   font-size: 13px;
@@ -53,7 +54,7 @@ nav ul {
 }
 
 .nav-search {
-  margin: auto;
+  margin: 5px 4px 0 0;
 }
 
 .nav-search input {
