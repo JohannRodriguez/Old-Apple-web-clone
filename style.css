@@ -140,3 +140,50 @@ nav ul li:hover,
     margin: 20px auto 3px auto;
     width: 980px;
 }
+
+footer p{
+    color:#6e6e6e;;
+    font-size: 10px;
+}
+
+footer a {
+    color:#08c;
+    font-size: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links ul {
+    display: flex;
+    margin-top: -5px;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links ul a {
+    border-right: solid 1px lightgray;
+    padding: 0 7px;
+}
+
+.footer-links img {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.copyrigth {
+    width: 980px;
+    margin: auto;
+}
+
+.copyrigth p {
+    display: inline;
+}
+
+.copyrigth :nth-last-child(1) {
+    border-left: solid 1px lightgrey;
+    padding-left: 5px;
+}
