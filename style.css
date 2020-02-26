@@ -11,6 +11,11 @@
   display: flex;
 }
 
+main {
+  margin: 2px auto;
+  cursor: pointer;
+}
+
 header main {
   width: 100%;
 }
@@ -39,6 +44,17 @@ nav {
   top: 83px;
 }
 
+.copyrigth p,
+li {
+  display: inline;
+}
+
+nav li {
+  padding: 6px 34.5px 6px 34.5px;
+  font-size: 13px;
+  text-shadow: 1px -1px 0.5px rgb(68, 68, 68);
+}
+
 .nav-border li,
 #apple-logo {
   border-right: solid 1px rgb(73, 73, 73);
@@ -47,12 +63,6 @@ nav {
 #apple-logo {
   width: 20px;
   padding: 5px 41px;
-}
-
-nav li {
-  padding: 6px 34.5px 6px 34.5px;
-  font-size: 13px;
-  text-shadow: 1px -1px 0.5px rgb(68, 68, 68);
 }
 
 .font {
@@ -109,11 +119,6 @@ footer p {
   color: #6e6e6e;
 }
 
-.copyrigth p,
-li {
-  display: inline;
-}
-
 .headings p {
   font-size: 1.4em;
   margin: 25px;
@@ -121,11 +126,6 @@ li {
 
 .headings p:hover {
   text-decoration: underline;
-}
-
-main {
-  margin: 2px auto;
-  cursor: pointer;
 }
 
 #article-main-1 {
