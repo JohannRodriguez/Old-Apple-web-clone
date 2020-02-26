@@ -23,7 +23,7 @@
 
 ## Author
 
-👤 **Author1**
+👤 **Johann Rodriguez**
 
 - Github: [@JohannRodriguez](https://github.com/JohannRodriguez)
 - Twitter: [@BSapce](https://twitter.com/BSapce)
