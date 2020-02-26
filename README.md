@@ -23,11 +23,11 @@
 
 ## Author
 
-👤 **Author1**
+👤 **Johann Rodriguez**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@JohannRodriguez](https://github.com/JohannRodriguez)
+- Twitter: [@BSapce](https://twitter.com/BSapce)
+- Linkedin: [linkedin](https://www.linkedin.com/in/johann-alonso-rodr%C3%ADguez-v%C3%A1zquez-25b07719a/)
 
 ## 🤝 Contributing
 
