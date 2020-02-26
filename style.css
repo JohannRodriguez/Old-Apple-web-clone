@@ -18,7 +18,7 @@ header {
 nav {
   position: relative;
   margin: auto;
-  background: linear-gradient(rgb(163, 163, 163), rgb(128, 127, 127)40%, rgb(109, 109, 109)50%, rgb(114, 114, 114) );
+  background: linear-gradient(rgb(163, 163, 163), rgb(128, 127, 127) 40%, rgb(109, 109, 109) 50%, rgb(114, 114, 114) );
   width: 960px;
   height: 35px;
   border-radius: 3px;
@@ -32,6 +32,16 @@ nav {
   border-right: solid 1px rgb(73, 73, 73);
 }
 
+nav li {
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: inline;
+    border-right: solid 1px rgb(73, 73, 73);
+    font-size: 13px;
+    text-shadow: 1px -1px 0.5px rgb(68, 68, 68);
+  }
+
 .footer-links li {
   list-style: none;
 }
@@ -40,16 +50,6 @@ nav ul {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(8, 1fr) 1.5fr;
-}
-
-nav li {
-  text-align: center;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  display: inline;
-  border-right: solid 1px rgb(73, 73, 73);
-  font-size: 13px;
-  text-shadow: 1px -1px 0.5px rgb(68, 68, 68);
 }
 
 .nav-search {
@@ -91,7 +91,7 @@ nav ul li:hover,
 }
 
 footer p {
-  color:#6e6e6e;
+  color: #6e6e6e;
   font-size: 10px;
 }
 
