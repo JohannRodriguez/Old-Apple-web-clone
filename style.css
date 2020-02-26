@@ -25,7 +25,6 @@ li {
   display: inline;
 }
 
-
 header,
 nav li {
   text-align: center;
@@ -116,6 +115,11 @@ nav ul li:hover,
   font-size: 1.6em;
 }
 
+
+footer p {
+  color: #6e6e6e;
+}
+
 .headings p {
   font-size: 1.4em;
   margin: 25px;
@@ -194,10 +198,6 @@ footer a:hover {
 
 .footer-links img {
   margin-left: 5px;
-}
-
-footer p {
-  color: #6e6e6e;
 }
 
 .copyrigth {
