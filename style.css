@@ -20,6 +20,12 @@ header main {
   width: 100%;
 }
 
+.copyrigth p,
+li {
+  display: inline;
+}
+
+
 header,
 nav li {
   text-align: center;
@@ -42,11 +48,6 @@ nav {
   border-radius: 3px;
   border: solid 1px rgb(105, 105, 105);
   top: 83px;
-}
-
-.copyrigth p,
-li {
-  display: inline;
 }
 
 nav li {
@@ -113,10 +114,6 @@ nav ul li:hover,
 
 .headings h2 {
   font-size: 1.6em;
-}
-
-footer p {
-  color: #6e6e6e;
 }
 
 .headings p {
@@ -197,6 +194,10 @@ footer a:hover {
 
 .footer-links img {
   margin-left: 5px;
+}
+
+footer p {
+  color: #6e6e6e;
 }
 
 .copyrigth {
