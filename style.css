@@ -7,6 +7,10 @@
   font-weight: normal;
 }
 
+body {
+  margin-bottom: 20px;
+}
+
 .flex {
   display: flex;
 }
@@ -175,7 +179,6 @@ nav ul li:hover,
 .footer-links {
   justify-content: space-between;
   margin: 20px 0 3px 0;
-  background-color: blue;
 }
 
 footer a {
@@ -209,5 +212,4 @@ footer a:hover {
 
 footer {
   width: 80%;
-  background-color: red;
 }
