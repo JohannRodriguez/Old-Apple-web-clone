@@ -18,7 +18,7 @@ header {
 nav {
   position: relative;
   margin: auto;
-  background: linear-gradient(rgb(163, 163, 163), rgb(128, 127, 127) 40%, rgb(109, 109, 109) 50%, rgb(114, 114, 114) );
+  background: linear-gradient(rgb(163, 163, 163) , rgb(128, 127, 127) 40%, rgb(109, 109, 109) 50%, rgb(114, 114, 114) );
   width: 960px;
   height: 35px;
   border-radius: 3px;
