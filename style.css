@@ -33,14 +33,14 @@ nav {
 }
 
 nav li {
-    text-align: center;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    display: inline;
-    border-right: solid 1px rgb(73, 73, 73);
-    font-size: 13px;
-    text-shadow: 1px -1px 0.5px rgb(68, 68, 68);
-  }
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: inline;
+  border-right: solid 1px rgb(73, 73, 73);
+  font-size: 13px;
+  text-shadow: 1px -1px 0.5px rgb(68, 68, 68);
+}
 
 .footer-links li {
   list-style: none;
