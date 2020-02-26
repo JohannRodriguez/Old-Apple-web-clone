@@ -175,8 +175,12 @@ footer a:hover {
   padding: 0 7px;
 }
 
+.footer-links-right {
+  display: flex;
+  align-items: center;
+}
+
 .footer-links img {
-  margin-top: 5px;
   margin-left: 5px;
 }
 
